@@ -93,8 +93,7 @@ packages:
         - lhs2tex
         - persistent-mongoDB
         - pretty-class
-        # https://github.com/pvdbrand/quandl-api/issues/2 GHC 7.10
-        #- quandl-api
+        - quandl-api
         - random-fu
         - random-source
         - shelly
@@ -696,8 +695,7 @@ packages:
         #- elm-compiler
         - elm-core-sources
         #- elm-package
-        # https://github.com/noteed/language-glsl/issues/11
-        #- language-glsl GHC 7.10
+        - language-glsl
         - prettyclass
         - QuasiText
         - union-find
@@ -991,6 +989,12 @@ packages:
     "Peter Harpending <peter@harpending.org> @pharpend":
         - exceptional
         - pager
+
+    "Philipp Hausmann <ph_git@314.ch> @phile314":
+        - tasty-silver
+
+    "Michael Thompson <what_is_it_to_do_anything@yahoo.com> @michaelt":
+        - pipes-text
 
     "Stackage upper bounds":
         # https://github.com/fpco/stackage/issues/476
