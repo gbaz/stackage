@@ -1546,7 +1546,7 @@ packages:
         # - jmacro-rpc # GHC 8.2.1 via happstack-server
         # - jmacro-rpc-happstack # GHC 8.2.1 via happstack-server
         - jmacro-rpc-snap
-        # - mbox # GHC 8.2.1
+        - mbox
         - kmeans
         - boolsimplifier
         # - cubicspline # https://github.com/albertoruiz/hmatrix/issues/232
